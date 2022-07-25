@@ -54,3 +54,37 @@ body {
 .options{
     font-size: 1.5rem;
 }
+
+.page-content{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.lmargin{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-right: solid;
+  border-width: 2px;
+  height: 100vh;
+  grid-template-rows: 15vh;
+}
+
+.page-title{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.center{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 15vh;
+}
+
+.main-cont{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+li{
+  margin: 20px;
+}
