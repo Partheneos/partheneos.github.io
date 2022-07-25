@@ -6,7 +6,7 @@
   background: cornsilk;
 }
 
-body {
+#home-content-container {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 30vh 40vh ;
